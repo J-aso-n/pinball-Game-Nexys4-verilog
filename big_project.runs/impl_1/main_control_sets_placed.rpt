@@ -1,0 +1,116 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
+| Date         : Sun Feb 19 07:24:35 2023
+| Host         : Jason-Pro14 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file main_control_sets_placed.rpt
+| Design       : main
+| Device       : xc7a100t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    63 |
+| Unused register locations in slices containing registers |   124 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              27 |           13 |
+| No           | No                    | Yes                    |              82 |           30 |
+| No           | Yes                   | No                     |              15 |            4 |
+| Yes          | No                    | No                     |              58 |           20 |
+| Yes          | No                    | Yes                    |             338 |          110 |
+| Yes          | Yes                   | No                     |               4 |            2 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++--------------------------------------------------------+------------------------------------------------------+------------------------------------------------+------------------+----------------+
+|                      Clock Signal                      |                     Enable Signal                    |                Set/Reset Signal                | Slice Load Count | Bel Load Count |
++--------------------------------------------------------+------------------------------------------------------+------------------------------------------------+------------------+----------------+
+|  my_vga_ctrl/vs                                        |                                                      |                                                |                1 |              1 |
+|  sys_clk_IBUF_BUFG                                     | my_bluetooth/u_uart_tx/o_uart_tx_i_1_n_0             | my_vga_display/max_reg[2]_0                    |                1 |              1 |
+|  clk_25M_reg_n_0_BUFG                                  | my_vga_display/max                                   | my_vga_display/max_reg[2]_0                    |                1 |              1 |
+|  my_bluetooth/my_uart_rx/cur_st_reg[0][0]              |                                                      |                                                |                1 |              2 |
+|  sys_clk_IBUF_BUFG                                     |                                                      | my_vga_display/max_reg[2]_0                    |                1 |              2 |
+|  clk_BUFG                                              |                                                      | my_bluetooth/my_uart_rx/o_rx_done_reg_0        |                1 |              2 |
+|  my_bluetooth/my_uart_rx/r_next_state_reg[2]_i_2_n_0   |                                                      |                                                |                1 |              3 |
+|  my_bluetooth/u_uart_tx/r_next_state_reg[2]_i_2__0_n_0 |                                                      |                                                |                1 |              3 |
+|  my_vga_ctrl/vs                                        |                                                      | my_vga_display/x_direction_reg[0]_0            |                3 |              3 |
+|  sys_clk_IBUF_BUFG                                     | my_bluetooth/u_uart_tx/r_tx_cnt[3]_i_1_n_0           | my_bluetooth/my_uart_rx/o_rx_done_reg_0        |                1 |              4 |
+|  sys_clk_IBUF_BUFG                                     | my_mouse/FSM_sequential_next_state[3]_i_1_n_0        |                                                |                2 |              4 |
+|  clk_25M_reg_n_0_BUFG                                  | my_vga_display/max                                   | my_vga_display/vga_ram[103]_i_3_n_0            |                3 |              4 |
+|  sys_clk_IBUF_BUFG                                     | my_mouse/ps2_transmitter/data_count[3]_i_2_n_0       | my_mouse/ps2_transmitter/data_count[3]_i_1_n_0 |                2 |              4 |
+|  clk_BUFG                                              | my_bluetooth/my_uart_rx/E[0]                         | my_bluetooth/my_uart_rx/AR[0]                  |                2 |              6 |
+|  clk_25M_reg_n_0_BUFG                                  | my_vga_ctrl/E[0]                                     |                                                |                3 |              8 |
+|  clk_25M_reg_n_0_BUFG                                  | my_vga_ctrl/pix_data_reg[11][0]                      | my_vga_display/x_direction_reg[0]_0            |                3 |              8 |
+|  clk_25M_reg_n_0_BUFG                                  | my_vga_display/vga_ram[103]_i_1_n_0                  | my_vga_display/vga_ram[103]_i_3_n_0            |                3 |              8 |
+|  clk_25M_reg_n_0_BUFG                                  | my_vga_display/vga_ram[119]_i_1_n_0                  | my_vga_display/x_direction_reg[0]_0            |                2 |              8 |
+|  clk_25M_reg_n_0_BUFG                                  | my_vga_display/vga_ram[127]_i_1_n_0                  | my_vga_display/x_direction_reg[0]_0            |                2 |              8 |
+|  clk_25M_reg_n_0_BUFG                                  | my_vga_display/vga_ram[15]_i_1_n_0                   | my_vga_display/vga_ram[103]_i_3_n_0            |                3 |              8 |
+|  clk_25M_reg_n_0_BUFG                                  | my_vga_display/vga_ram[23]_i_1_n_0                   | my_vga_display/vga_ram[103]_i_3_n_0            |                1 |              8 |
+|  clk_25M_reg_n_0_BUFG                                  | my_vga_display/vga_ram[31]_i_1_n_0                   | my_vga_display/vga_ram[103]_i_3_n_0            |                3 |              8 |
+|  clk_25M_reg_n_0_BUFG                                  | my_vga_display/vga_ram[39]_i_1_n_0                   | my_vga_display/vga_ram[103]_i_3_n_0            |                3 |              8 |
+|  clk_25M_reg_n_0_BUFG                                  | my_vga_display/vga_ram[47]_i_1_n_0                   | my_vga_display/vga_ram[103]_i_3_n_0            |                1 |              8 |
+|  clk_25M_reg_n_0_BUFG                                  | my_vga_display/vga_ram[55]_i_1_n_0                   | my_vga_display/vga_ram[103]_i_3_n_0            |                2 |              8 |
+|  clk_25M_reg_n_0_BUFG                                  | my_vga_display/vga_ram[63]_i_1_n_0                   | my_vga_display/x_direction_reg[0]_0            |                2 |              8 |
+|  clk_25M_reg_n_0_BUFG                                  | my_vga_display/vga_ram[71]_i_1_n_0                   | my_vga_display/vga_ram[103]_i_3_n_0            |                3 |              8 |
+|  clk_25M_reg_n_0_BUFG                                  | my_vga_display/vga_ram[79]_i_1_n_0                   | my_vga_display/vga_ram[103]_i_3_n_0            |                2 |              8 |
+|  clk_25M_reg_n_0_BUFG                                  | my_vga_display/vga_ram[7]_i_1_n_0                    | my_vga_display/vga_ram[103]_i_3_n_0            |                2 |              8 |
+|  clk_25M_reg_n_0_BUFG                                  | my_vga_display/vga_ram[87]_i_1_n_0                   | my_vga_display/vga_ram[103]_i_3_n_0            |                3 |              8 |
+|  clk_25M_reg_n_0_BUFG                                  | my_vga_display/vga_ram[95]_i_1_n_0                   | my_vga_display/vga_ram[103]_i_3_n_0            |                3 |              8 |
+|  clk_BUFG                                              | my_bluetooth/my_uart_rx/ram_reg[0][0][0]             | my_bluetooth/my_uart_rx/AR[0]                  |                3 |              8 |
+|  clk_BUFG                                              | my_bluetooth/my_uart_rx/ram_reg[10][0][0]            | my_bluetooth/my_uart_rx/AR[0]                  |                3 |              8 |
+|  clk_BUFG                                              | my_bluetooth/my_uart_rx/ram_reg[11][0][0]            | my_bluetooth/my_uart_rx/AR[0]                  |                2 |              8 |
+|  clk_BUFG                                              | my_bluetooth/my_uart_rx/ram_reg[12][0][0]            | my_bluetooth/my_uart_rx/AR[0]                  |                1 |              8 |
+|  clk_BUFG                                              | my_bluetooth/my_uart_rx/ram_reg[13][0][0]            | my_bluetooth/my_uart_rx/AR[0]                  |                3 |              8 |
+|  clk_BUFG                                              | my_bluetooth/my_uart_rx/ram_reg[14][0][0]            | my_bluetooth/my_uart_rx/AR[0]                  |                3 |              8 |
+|  clk_BUFG                                              | my_bluetooth/my_uart_rx/ram_reg[15][0][0]            | my_bluetooth/my_uart_rx/AR[0]                  |                2 |              8 |
+|  clk_BUFG                                              | my_bluetooth/my_uart_rx/ram_reg[1][0][0]             | my_bluetooth/my_uart_rx/AR[0]                  |                4 |              8 |
+|  clk_BUFG                                              | my_bluetooth/my_uart_rx/ram_reg[2][0][0]             | my_bluetooth/my_uart_rx/AR[0]                  |                2 |              8 |
+|  clk_BUFG                                              | my_bluetooth/my_uart_rx/ram_reg[3][0][0]             | my_bluetooth/my_uart_rx/AR[0]                  |                2 |              8 |
+|  clk_BUFG                                              | my_bluetooth/my_uart_rx/ram_reg[4][0][0]             | my_bluetooth/my_uart_rx/AR[0]                  |                2 |              8 |
+|  clk_BUFG                                              | my_bluetooth/my_uart_rx/ram_reg[5][0][0]             | my_bluetooth/my_uart_rx/AR[0]                  |                3 |              8 |
+|  clk_BUFG                                              | my_bluetooth/my_uart_rx/ram_reg[6][0][0]             | my_bluetooth/my_uart_rx/AR[0]                  |                2 |              8 |
+|  clk_BUFG                                              | my_bluetooth/my_uart_rx/ram_reg[7][7][0]             | my_bluetooth/my_uart_rx/AR[0]                  |                2 |              8 |
+|  clk_BUFG                                              | my_bluetooth/my_uart_rx/ram_reg[8][0][0]             | my_bluetooth/my_uart_rx/AR[0]                  |                3 |              8 |
+|  clk_BUFG                                              | my_bluetooth/my_uart_rx/ram_reg[9][0][0]             | my_bluetooth/my_uart_rx/AR[0]                  |                3 |              8 |
+|  sys_clk_IBUF_BUFG                                     | my_bluetooth/my_uart_rx/o_uart_data[7]_i_1_n_0       | my_bluetooth/my_uart_rx/o_rx_done_reg_0        |                1 |              8 |
+|  sys_clk_IBUF_BUFG                                     | my_bluetooth/u_uart_tx/r_data_tx[7]_i_1_n_0          | my_bluetooth/my_uart_rx/o_rx_done_reg_0        |                2 |              8 |
+|  clk_25M_reg_n_0_BUFG                                  | my_vga_display/vga_ram[111]_i_1_n_0                  | my_vga_display/x_direction_reg[0]_0            |                3 |              8 |
+|  sys_clk_IBUF_BUFG                                     | my_mouse/ps2_transmitter/parallel_data_in[7]_i_1_n_0 |                                                |                3 |              8 |
+|  my_vga_ctrl/vs                                        | my_vga_display/Ball_y[9]_i_1_n_0                     | my_vga_display/x_direction_reg[0]_0            |                5 |             10 |
+|  clk_25M_reg_n_0_BUFG                                  |                                                      | my_vga_display/x_direction_reg[0]_0            |                3 |             10 |
+|  my_vga_ctrl/vs                                        | my_vga_display/Ball_x[9]_i_1_n_0                     | my_vga_display/x_direction_reg[0]_0            |                6 |             10 |
+|  sys_clk_IBUF_BUFG                                     | my_mouse/ps2_transmitter/data_in_buf[9]_i_1_n_0      |                                                |                2 |             10 |
+|  clk_25M_reg_n_0_BUFG                                  | my_vga_ctrl/cnt_v0                                   | my_vga_display/x_direction_reg[0]_0            |                5 |             10 |
+|  sys_clk_IBUF_BUFG                                     | my_bluetooth/my_uart_rx/r_rcv_cnt                    | my_bluetooth/my_uart_rx/o_rx_done_reg_0        |                2 |             12 |
+|  sys_clk_IBUF_BUFG                                     | my_mouse/ps2_transmitter/data_out_buf[10]_i_1_n_0    |                                                |                4 |             12 |
+|  sys_clk_IBUF_BUFG                                     |                                                      | my_bluetooth_clk/num[15]_i_1_n_0               |                4 |             15 |
+|  sys_clk_IBUF_BUFG                                     | my_mouse/ps2_transmitter/clock_count[15]_i_1_n_0     |                                                |                6 |             16 |
+|  sys_clk_IBUF_BUFG                                     |                                                      | my_vga_display/x_direction_reg[0]_0            |                8 |             17 |
+|  sys_clk_IBUF_BUFG                                     |                                                      |                                                |                9 |             18 |
+|  sys_clk_IBUF_BUFG                                     |                                                      | my_bluetooth/my_uart_rx/o_rx_done_reg_0        |               14 |             48 |
++--------------------------------------------------------+------------------------------------------------------+------------------------------------------------+------------------+----------------+
+
+

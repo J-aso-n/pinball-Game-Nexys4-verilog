@@ -1,0 +1,14 @@
+0.4
+2016.2
+D:/vivado_16.2/projects/big_project/big_project.sim/sim_1/behav/glbl.v,1464879896,verilog,,,,,,,,,,,
+D:/vivado_16.2/projects/big_project/big_project.srcs/sim_1/new/testbench.v,1675269346,verilog,,,,,,../../../big_project.srcs/sources_1/new,,,,,
+D:/vivado_16.2/projects/big_project/big_project.srcs/sources_1/new/bluetooth.v,1676730827,verilog,,,,,,../../../big_project.srcs/sources_1/new,,,,,
+D:/vivado_16.2/projects/big_project/big_project.srcs/sources_1/new/bluetooth_clk.v,1676730602,verilog,,,,,,../../../big_project.srcs/sources_1/new,,,,,
+D:/vivado_16.2/projects/big_project/big_project.srcs/sources_1/new/header.vh,1676530651,verilog,,,,,,,,,,,
+D:/vivado_16.2/projects/big_project/big_project.srcs/sources_1/new/main.v,1676733464,verilog,,,D:/vivado_16.2/projects/big_project/big_project.srcs/sources_1/new/header.vh,,,../../../big_project.srcs/sources_1/new,,,,,
+D:/vivado_16.2/projects/big_project/big_project.srcs/sources_1/new/mouse.v,1676736384,verilog,,,,,,../../../big_project.srcs/sources_1/new,,,,,
+D:/vivado_16.2/projects/big_project/big_project.srcs/sources_1/new/ps2.v,1676736109,verilog,,,,,,../../../big_project.srcs/sources_1/new,,,,,
+D:/vivado_16.2/projects/big_project/big_project.srcs/sources_1/new/uart_rx.v,1676731188,verilog,,,,,,../../../big_project.srcs/sources_1/new,,,,,
+D:/vivado_16.2/projects/big_project/big_project.srcs/sources_1/new/uart_tx.v,1676731699,verilog,,,,,,../../../big_project.srcs/sources_1/new,,,,,
+D:/vivado_16.2/projects/big_project/big_project.srcs/sources_1/new/vga_ctrl.v,1676731940,verilog,,,,,,../../../big_project.srcs/sources_1/new,,,,,
+D:/vivado_16.2/projects/big_project/big_project.srcs/sources_1/new/vga_display.v,1676737198,verilog,,,D:/vivado_16.2/projects/big_project/big_project.srcs/sources_1/new/header.vh,,,../../../big_project.srcs/sources_1/new,,,,,

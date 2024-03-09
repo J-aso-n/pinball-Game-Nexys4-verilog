@@ -1,0 +1,23 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vivado_16.2/projects/big_project/big_project.srcs/sources_1/new/ps2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ps2_transmitter
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vivado_16.2/projects/big_project/big_project.srcs/sources_1/new/uart_tx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_tx
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vivado_16.2/projects/big_project/big_project.srcs/sources_1/new/uart_rx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_rx
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vivado_16.2/projects/big_project/big_project.srcs/sources_1/new/mouse.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module usb_mouse
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vivado_16.2/projects/big_project/big_project.srcs/sources_1/new/bluetooth_clk.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bluetooth_clk
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vivado_16.2/projects/big_project/big_project.srcs/sources_1/new/bluetooth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bluetooth
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vivado_16.2/projects/big_project/big_project.srcs/sources_1/new/vga_display.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vga_display
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vivado_16.2/projects/big_project/big_project.srcs/sources_1/new/vga_ctrl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vga_ctrl
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vivado_16.2/projects/big_project/big_project.srcs/sources_1/new/main.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module main
+WARNING: [VRFC 10-2292] extra semicolon is not allowed here in this dialect. Use SystemVerilog mode [D:/vivado_16.2/projects/big_project/big_project.srcs/sources_1/new/main.v:42]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vivado_16.2/projects/big_project/big_project.srcs/sim_1/new/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vivado_16.2/projects/big_project/big_project.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
